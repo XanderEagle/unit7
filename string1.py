@@ -1,7 +1,7 @@
 original = "abcdefghij"
-first = original[0:3]
+first = original[:3]
 print(first)
-last = original[3:11]
+last = original[3:]
 print(last)
-final = first + last
+final = last + first
 print(final)
